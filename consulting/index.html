@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schedule Appointment</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container, header {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .header, .description {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .description b {
+    font-weight: bold;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .image-caption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  .upload-box {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .upload-box input[type=file] {
+    width: 100%;
+  }
+  a.help-link {
+    text-decoration: none;
+    color: #007bff; /* Bootstrap blue for example */
+    font-weight: bold;
+  }
+  img.logo {
+    max-height: 30px; /* Smaller size for the logo */
+    width: auto; /* Maintain aspect ratio */
+  }
+</style>
+</head>
+<body>
+<header>
+  <div style="width: 50%;"> <!-- Container for the logo -->
+    <img src="logo - color black (3).png" alt="Iykra Logo" class="logo">
+  </div>
+  <a href="https://wa.me/4917685320354" class="help-link">Need Help?</a>
+</header>
+<div class="container">
+  <div class="header">
+    <h1>Consulting Request Form</h1>
+  </div>
+  <div class="description">
+    Lakukan request sesuai dengan kebutuhan mu, Kegiatan atau kebutuhan yang masuk kedalam KPI kami, silahkan request pada bagian <b>BaU</b> sisanya book sesuai divisi kamu.
+  </div>
+  
+  <img src="consulting.png" alt="Consulting Service">
+  <div class="image-caption">KPI Consulting</div>
+  
+  <!-- Google Calendar Appointment Scheduling begin -->
+  <iframe src="https://calendar.google.com/calendar/appointments/AcZssZ2C0SPlKjiwDn68QC4LmP-mj0WRJ0LVQRy6WS0=?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+  <!-- end Google Calendar Appointment Scheduling -->
+</div>
+</body>
+</html>
